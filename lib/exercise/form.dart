@@ -44,6 +44,14 @@ class _FormExampleState extends State<FormExample> {
               return null;
             },
           ),
+          const SizedBox(height: 16), //space between two textfields
+          TextField(
+              
+              decoration: const InputDecoration(
+                labelText: 'Enter Name',
+                
+              ),
+            ),
           Padding(
             padding: const .symmetric(vertical: 16.0),
             child: ElevatedButton(
